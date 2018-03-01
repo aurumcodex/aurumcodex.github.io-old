@@ -1,0 +1,261 @@
+/* Author: Nathan Adams */
+/* For setting the background and *all* text in any linked HTML Document. */
+:root {
+  color: #ffaaaa;
+  background-color: #550000;
+  text-align: center;
+}
+
+/* ==== Sectioned Content and Text Content Styling ==== */
+/* section headers */
+h1, h2, h3, h4, h5, h6 { font-family: "Roboto", sans-serif; }
+
+/* divs */
+div {
+  border: solid 1px #f60000;
+  display: inline-block;
+  margin: auto;
+  width: 35%;
+  height: auto;
+  justify-content: center;
+}
+
+/* addresses and asides */
+address, aside {
+  font-family: "PT Serif", serif;
+  font-size: 0.85em;
+  text-align: right;
+}
+
+/* footers and document header */
+footer, header { font-family: "Crimson Text", serif; }
+
+/* dl (description list) and dd (description details) */
+dl { font-family: "Dosis", helvetica, sans-serif; }
+
+dd { font-size: 0.8em; }
+
+/* horizontal rule element */
+hr {
+  display: block;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-width: 3px;
+  border-color: #aa3939;
+}
+
+/* unordered list items and ordered list items */
+ul li, ol li { font-family: "Kameron", serif; }
+ul { list-style-type: square;}
+
+/* paragraphs */
+p { font-family: "PT Sans", helvetica, sans-serif; }
+
+/* blockquotes */
+blockquote { font-family: "Open Sans", sans-serif; }
+
+/* nav elements and maps */
+nav, map { font-family: "Anaheim", sans-serif; }
+
+/* figures and figcaptions */
+figure { border: 2px solid #f60000; width: auto; }
+figcaption { font: 15pt "Iceland"; }
+/* ==== End of Sectioned Content and Text Content Styling ==== */
+
+/* ==== Inline Text Semantic Stylings ==== */
+/* anchors unvisited and visited */
+a:link {
+  font-family: "Lekton", monospace;
+  color: #f60000;
+}
+
+a:visited {
+  font-family: "Lekton", monospace;
+  color: #801515;
+}
+
+/* hrefs unvisited and visited */
+[href]:link {
+  font-family: "Lekton", monospace;
+  color: #f60000;
+}
+
+[href]:visited {
+  font-family: "Lekton", monospace;
+  color: #a00000;
+}
+
+/* displaying bits of code */
+code {
+  font-family: "Source Code Pro", monospace;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/* keyboard input displays */
+kbd {
+  color: #000000;
+  border-radius: 3px;
+  padding: 1px 2px 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #ffffff;
+}
+
+/* short quotes */
+q { font-family: "Anaheim", sans-serif; }
+
+/* time elements */
+time { font: 20px "Iceland"; }
+
+/* marked elements */
+mark {
+  color: #370000;
+  background-color: #f60000;
+}
+
+/* spans */
+span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/* ==== End of Inline Text Semantic Stylings ==== */
+
+/* ==== Media Content ==== */
+/* img elements */
+img { border: 3px groove #f60000; }
+
+/* video elements */
+video { border: 3px groove #f60000; }
+/* ==== End of Media Content ==== */
+
+/* ==== Script Based Content ==== */
+/* canvas elements */
+canvas { border: 4px inset #f60000; }
+
+/* noscript elements */
+noscript { font: 12pt "Iceland" }
+/* ==== End of Script Based Content ==== */
+
+/* ==== Table Content ==== */
+/* main table element */
+table {
+  margin: auto;
+  font-family: "Maven Pro", sans-serif;
+}
+
+/* table data */
+thead, tbody, tfoot, td, th {
+  border: 2px solid #f60000;
+  color: #000000;
+}
+
+/* table rows with alternating colors */
+tr:nth-child(even) { background-color: #efd3d3; }
+tr:nth-child(odd) { background-color: #d1baba; }
+
+/* table caprion */
+caption {
+  color: #efefef;
+  font-family: "PT Serif", serif;
+}
+/* ==== End of Table Content ==== */
+
+/* ==== Forms and Inputs ==== */
+/* actual forms */
+form {
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+}
+
+/* for labels */
+label { font-family: "Anaheim", sans-serif; }
+
+/* fieldset elements */
+fieldset { border: 2px double #f60000; }
+
+/* legend elemnts */
+legend {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+/* button elements */
+button {
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  background-color: #ff4c4c;
+  border-radius: 4px;
+  border: 2px solid #ff0000;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s; /* for Safari browsers */
+}
+
+button:hover {
+  color: #000000;
+  background-color: #ffcdcd;
+}
+
+/* general inputs */
+input { font-family: "Roboto Mono", monospace; }
+
+/* inputs via attributes (not all input types are used, however) */
+[type=text] {
+  /* border: 3px groove #edeeef; */
+  border: 3px groove #f60000;
+  background-color: #eeeeee;
+  padding: 3px;
+}
+
+[type=text]:focus { background-color: #ffeeee; }
+
+[type=number] {
+  /* border: 3px groove #edeeef; */
+  border: 3px groove #f60000;
+  background-color: #eeeeee;
+  padding: 3px;
+}
+
+[type=number]:focus { background-color: #ffeeee; }
+
+[type=button] {
+  color: #ffffff;
+  background-color: #ff4c4c;
+  border-radius: 4px;
+  border: 2px solid #ff0000;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s; /* for Safari browsers */
+}
+
+[type=button]:hover {
+  color: #000000;
+  background-color: #ffcdcd;
+}
+
+[type=submit] {
+  color: #ffffff;
+  background-color: #ff4c4c;
+  border-radius: 4px;
+  border: 2px solid #ff0000;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s; /* for Safari browsers */
+}
+
+[type=submit]:hover {
+  color: #000000;
+  background-color: #ffdddd;
+}
+
+[type=color] { border: 3px ridge #f60000; }
+
+textarea {
+  border: 3px groove #f60000;
+  background-color: #eeeeee;
+}
+/* ==== End of Forms and Inputs ==== */
