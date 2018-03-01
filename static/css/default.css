@@ -131,7 +131,7 @@ span {
 img { border: 3px groove #f60000; }
 
 /* video elements */
-video { border: 3px groove #f60000; }
+video { border: none; }
 /* ==== End of Media Content ==== */
 
 /* ==== Script Based Content ==== */
