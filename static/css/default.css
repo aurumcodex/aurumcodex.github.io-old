@@ -6,6 +6,17 @@
   text-align: center;
 }
 
+::selection {
+  color: #ffffff;
+  background-color: #40c7df;
+}
+
+/* for firefoc */
+::-moz-selection {
+  color: #ffffff;
+  background-color: #40c7df;
+}
+
 /* ==== Sectioned Content and Text Content Styling ==== */
 /* section headers */
 h1, h2, h3, h4, h5, h6 { font-family: "Roboto", sans-serif; }
@@ -205,6 +216,10 @@ button:hover {
 /* general inputs */
 input { font-family: "Roboto Mono", monospace; }
 
+input:valid { border-color: #0bc701; }
+input:invalid { color: #b00d0d; }
+input:required { background-color: #6f0a56;}
+
 /* inputs via attributes (not all input types are used, however) */
 [type=text] {
   /* border: 3px groove #edeeef; */
@@ -259,5 +274,3 @@ textarea {
   background-color: #eeeeee;
 }
 /* ==== End of Forms and Inputs ==== */
-
-.fantasy { font-family: fantasy; }
