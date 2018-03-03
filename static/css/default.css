@@ -273,4 +273,8 @@ textarea {
 }
 /* ==== End of Forms and Inputs ==== */
 
-.exo2 {font-family: "Exo 2", sans-serif;}
+p.exo2 {font-family: "Exo 2";}
+p.kame {font-family: "Kameron";}
+p.form {font-family: "Forum";}
+p.open {font-family: "Open Sans";}
+p.nova {font-family: "Nova Cut";}
