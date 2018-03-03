@@ -43,7 +43,7 @@ aside {
 footer, header { font-family: "Anonymous Pro", monospace;; }
 
 /* dl (description list) and dd (description details) */
-dl { font-family: "Dosis", serif; }
+dl { font-family: "Forum", serif; }
 
 dd { font-size: 0.8em; }
 
@@ -65,7 +65,10 @@ ul { list-style-type: square;}
 p { font-family: "Open Sans", helvetica, sans-serif; }
 
 /* blockquotes */
-blockquote { font-family: "Open Sans", sans-serif; }
+blockquote {
+  font-family: "Open Sans", sans-serif;
+  border-left: 3px solid #16425b;
+}
 
 /* nav elements and maps */
 nav, map { font-family: "Open Sans", sans-serif; }
@@ -90,12 +93,12 @@ a:visited {
 /* hrefs unvisited and visited */
 [href]:link {
   font-family: "Anonymous Pro", monospace;
-  color: #f60000;
+  color: #6bad1f;
 }
 
 [href]:visited {
   font-family: "Anonymous Pro", monospace;
-  color: #a00000;
+  color: #486b63;
 }
 
 /* displaying bits of code */
@@ -108,19 +111,19 @@ code {
 /* keyboard input displays */
 kbd {
   color: #000000;
+  background-color: #ffffff;
   border-radius: 3px;
-  padding: 1px 2px 0;
   border-width: 1px;
   border-style: solid;
   border-color: #000000;
-  background-color: #ffffff;
+  padding: 1px 2px 0;
 }
 
 /* short quotes */
-q { font-family: "Open Sans", sans-serif; }
+q { font-family: "Forum", sans-serif; }
 
 /* time elements */
-time { font: 20px "Exo 2"; }
+time { font: 12px "Exo 2"; }
 
 /* marked elements */
 mark {
