@@ -28,6 +28,107 @@
   <!-- <video src="/static/vod/space-travel.mp4" autoplay poster="posterimage.jpg" controls> space travel's cool. </video> -->
   <!-- TODO: add some stuff about other things -->
 
+  <div>
+    <nav class="navMenu">
+      navMenu:
+      <ul>
+        <li><a href="#"> base0 </a></li>
+        <li><a href="#"> tier1 </a></li>
+        <li><a href="#"> tier2 </a></li>
+      </ul>
+    </nav>
+  </div>
+  <div>
+    <ol>
+      <li> <code> coded first </code> </li>
+      <li> second </li>
+      <li> third </li>
+      <li> fourth </li>
+      <li> fifth </li>
+      <li> <time> 16:45 </time> </li>
+    </ol>
+  </div>
+
+  <hr>
+  <br>
+  <hr>
+
+  <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>del</kbd>
+  <br>
+  <q> this is a quote </q>
+  <blockquote>
+    this is a <mark> marked blockquote </mark>
+  </blockquote>
+
+  <dl class="discrip">
+    <dt>term here</dt>
+    <dd>description of term here</dd>
+  </dl>
+
+  <map>
+    <area shape="square" coords="64, 64, 64, 64" href="#" alt="derp">
+    map derp
+  </map>
+
+  <br>
+
+  <table id="tableField" onmouseover="mousyThing()" onmouseout="resetColor()">
+    <caption> this is a table caption </caption>
+    <thead>
+      <th> this is a table </th>
+    </thead>
+    <tbody>
+      <tr>
+        <td> name here: </td>
+        <td> <input name="name" id="nameIN" type="text" size="20" pattern="^[A-Z][a-z]*$"> </td>
+      </tr>
+      <tr>
+        <td> age here: </td>
+        <td> <input name="age" id="ageIN" type="number" size="5" min="1" required> </td>
+      </tr>
+      <tr>
+        <td>
+          <p> your age in 10 years: </p>
+        </td>
+        <td>
+          <p id="output"> </p>
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <th> this is a footer on a table <th>
+    </tfoot>
+  </table>
+
+  <br>
+
+  <noscript>
+    words here. enable javascript.
+  </noscript>
+
+  <form class="form" action="#" method="post">
+    <fieldset>
+      <legend> Title to a random form here </legend>
+      <label for="text">words: &nbsp;</label>
+      <input id="text" type="text" name="text" value="words" size="10">
+      <button type="button" name="button">This is a big 'ol button</button>
+      <input type="button" name="derp" value="also a button">
+      <textarea name="name" rows="8" cols="80">stuff goes here</textarea>
+      <p> input types below: </p>
+      <ul>
+        <li> button: <input type="button" name="buttonIn" value="input button"> </li>
+        <li> color: <input type="color" name="" value="#00ffff"> </li>
+        <li> number: <input type="number" name="" value="4"> </li>
+        <li> range: <input type="range" name="" value="0" min="-2" max="2" step="0.5"> </li>
+        <li> submit: <input type="submit" name="" value="submit"> </li>
+        <li> text: <input type="text" name="" value="words"> </li>
+    </fieldset>
+  </form>
+
+  <footer>
+    <time>4:20pm</time> <br> footer here
+  </footer>
+
   <canvas id="canvas" width="300" height="300">please use a browser that supports the canvas element.</canvas>
 
 </body>
