@@ -19,7 +19,7 @@
 
 /* ==== Sectioned Content and Text Content Styling ==== */
 /* section headers */
-h1, h2, h3, h4, h5, h6 { font-family: "Evo 2", sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: "Evo 2"; }
 
 /* divs */
 div {
