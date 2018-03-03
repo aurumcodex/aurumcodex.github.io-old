@@ -19,7 +19,7 @@
 
 /* ==== Sectioned Content and Text Content Styling ==== */
 /* section headers */
-h1, h2, h3, h4, h5, h6 { font-family: "Roboto", sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: "Evo 2", sans-serif; }
 
 /* divs */
 div {
@@ -31,15 +31,15 @@ div {
   justify-content: center;
 }
 
-/* addresses and asides */
-address, aside {
-  font-family: "PT Serif", serif;
-  font-size: 0.85em;
+/* asides */
+aside {
+  font-family: "Nova Cut", serif;
+  /* font-size: 0.85em; */
   text-align: right;
 }
 
 /* footers and document header */
-footer, header { font-family: "Crimson Text", serif; }
+footer, header { font-family: "Forum", serif; }
 
 /* dl (description list) and dd (description details) */
 dl { font-family: "Dosis", helvetica, sans-serif; }
@@ -63,45 +63,45 @@ ul li, ol li { font-family: "Kameron", serif; }
 ul { list-style-type: square;}
 
 /* paragraphs */
-p { font-family: "PT Sans", helvetica, sans-serif; }
+p { font-family: "Open Sans", helvetica, sans-serif; }
 
 /* blockquotes */
 blockquote { font-family: "Open Sans", sans-serif; }
 
 /* nav elements and maps */
-nav, map { font-family: "Anaheim", sans-serif; }
+nav, map { font-family: "Open Sans", sans-serif; }
 
 /* figures and figcaptions */
 figure { border: 2px solid #f60000; width: auto; }
-figcaption { font: 15pt "Iceland"; }
+figcaption { font: 15pt "Evo 2"; }
 /* ==== End of Sectioned Content and Text Content Styling ==== */
 
 /* ==== Inline Text Semantic Stylings ==== */
 /* anchors unvisited and visited */
 a:link {
-  font-family: "Lekton", monospace;
+  font-family: "Anonymous Pro", monospace;
   color: #f60000;
 }
 
 a:visited {
-  font-family: "Lekton", monospace;
+  font-family: "Anonymous Pro", monospace;
   color: #801515;
 }
 
 /* hrefs unvisited and visited */
 [href]:link {
-  font-family: "Lekton", monospace;
+  font-family: "Anonymous Pro", monospace;
   color: #f60000;
 }
 
 [href]:visited {
-  font-family: "Lekton", monospace;
+  font-family: "Anonymous Pro", monospace;
   color: #a00000;
 }
 
 /* displaying bits of code */
 code {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Anonymous Pro", monospace;
   color: #ffffff;
   background-color: #000000;
 }
@@ -118,10 +118,10 @@ kbd {
 }
 
 /* short quotes */
-q { font-family: "Anaheim", sans-serif; }
+q { font-family: "Open Sans", sans-serif; }
 
 /* time elements */
-time { font: 20px "Iceland"; }
+time { font: 20px "Exo 2"; }
 
 /* marked elements */
 mark {
@@ -150,14 +150,14 @@ video { border: none; }
 canvas { border: 4px inset #f60000; }
 
 /* noscript elements */
-noscript { font: 12pt "Iceland" }
+noscript { font: 12pt "Exo 2" }
 /* ==== End of Script Based Content ==== */
 
 /* ==== Table Content ==== */
 /* main table element */
 table {
   margin: auto;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* table data */
@@ -173,7 +173,7 @@ tr:nth-child(odd) { background-color: #d1baba; }
 /* table caprion */
 caption {
   color: #efefef;
-  font-family: "PT Serif", serif;
+  font-family: "Open Sans", serif;
 }
 /* ==== End of Table Content ==== */
 
@@ -199,7 +199,7 @@ legend {
 
 /* button elements */
 button {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Anonymous Pro", monospace;
   color: #ffffff;
   background-color: #ff4c4c;
   border-radius: 4px;
@@ -214,7 +214,7 @@ button:hover {
 }
 
 /* general inputs */
-input { font-family: "Roboto Mono", monospace; }
+input { font-family: "Anonymous Pro", monospace; }
 
 input:valid { border-color: #0bc701; }
 input:invalid { color: #b00d0d; }
@@ -222,7 +222,6 @@ input:required { background-color: #6f0a56;}
 
 /* inputs via attributes (not all input types are used, however) */
 [type=text] {
-  /* border: 3px groove #edeeef; */
   border: 3px groove #f60000;
   background-color: #eeeeee;
   padding: 3px;
@@ -231,7 +230,6 @@ input:required { background-color: #6f0a56;}
 [type=text]:focus { background-color: #ffeeee; }
 
 [type=number] {
-  /* border: 3px groove #edeeef; */
   border: 3px groove #f60000;
   background-color: #eeeeee;
   padding: 3px;
