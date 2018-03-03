@@ -1,20 +1,20 @@
 /* Author: Nathan Adams */
 /* For setting the background and *all* text in any linked HTML Document. */
 :root {
-  color: #ffaaaa;
-  background-color: #550000;
+  color: #b3b6aa;
+  background-color: #353d42;
   text-align: center;
 }
 
 ::selection {
-  color: #ffffff;
-  background-color: #40c7df;
+  color: #cccfd1;
+  background-color: #6bad1f;
 }
 
 /* for firefoc */
 ::-moz-selection {
-  color: #ffffff;
-  background-color: #40c7df;
+  color: #cccfd1;
+  background-color: #6bad1f;
 }
 
 /* ==== Sectioned Content and Text Content Styling ==== */
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 { font-family: "Exo 2"; }
 
 /* divs */
 div {
-  border: solid 1px #f60000;
+  border: solid 1px #085f77;
   display: inline-block;
   margin: auto;
   width: 35%;
@@ -40,10 +40,10 @@ aside {
 }
 
 /* footers and document header */
-footer, header { font-family: "Forum", serif; }
+footer, header { font-family: "Anonymous Pro", monospace;; }
 
 /* dl (description list) and dd (description details) */
-dl { font-family: "Dosis", helvetica, sans-serif; }
+dl { font-family: "Dosis", serif; }
 
 dd { font-size: 0.8em; }
 
@@ -54,9 +54,7 @@ hr {
   margin-bottom: 0.25em;
   margin-left: auto;
   margin-right: auto;
-  border-style: double;
-  border-width: 3px;
-  border-color: #aa3939;
+  border: 3px double #085f77;
 }
 
 /* unordered list items and ordered list items */
@@ -159,12 +157,13 @@ noscript { font: 12pt "Exo 2" }
 table {
   margin: auto;
   font-family: "Open Sans", sans-serif;
+  border-collapse: collapse;
 }
 
 /* table data */
 thead, tbody, tfoot, td, th {
-  border: 2px solid #f60000;
-  color: #000000;
+  border: 2px solid #2b2e33;
+  color: #353d42;
 }
 
 /* table rows with alternating colors */
@@ -187,7 +186,7 @@ form {
 }
 
 /* for labels */
-label { font-family: "Anaheim", sans-serif; }
+label { font-family: "Exo 2", sans-serif; }
 
 /* fieldset elements */
 fieldset { border: 2px double #f60000; }
@@ -195,30 +194,30 @@ fieldset { border: 2px double #f60000; }
 /* legend elemnts */
 legend {
   text-align: left;
-  font-family: "Roboto", sans-serif;
+  font-family: "Kameron", sans-serif;
 }
 
 /* button elements */
 button {
   font-family: "Anonymous Pro", monospace;
-  color: #ffffff;
-  background-color: #ff4c4c;
+  color: #cccfd1;
+  background-color: #353d42;
   border-radius: 4px;
-  border: 2px solid #ff0000;
+  border: 2px solid #77777f;
   transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s; /* for Safari browsers */
 }
 
 button:hover {
-  color: #000000;
-  background-color: #ffcdcd;
+  color: #e5e5e5;
+  background-color: #4d6e7f;
 }
 
 /* general inputs */
 input { font-family: "Anonymous Pro", monospace; }
 
-input:valid { border-color: #0bc701; }
-input:invalid { color: #b00d0d; }
+input:valid { border-color: #6bad1f; }
+input:invalid { color: #f60000; }
 input:required { background-color: #6f0a56;}
 
 /* inputs via attributes (not all input types are used, however) */
@@ -228,7 +227,7 @@ input:required { background-color: #6f0a56;}
   padding: 3px;
 }
 
-[type=text]:focus { background-color: #ffeeee; }
+[type=text]:focus { background-color: #eeffff; }
 
 [type=number] {
   border: 3px groove #f60000;
@@ -236,7 +235,7 @@ input:required { background-color: #6f0a56;}
   padding: 3px;
 }
 
-[type=number]:focus { background-color: #ffeeee; }
+[type=number]:focus { background-color: #eeffff; }
 
 [type=button] {
   color: #ffffff;
