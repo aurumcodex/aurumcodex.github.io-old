@@ -136,7 +136,7 @@ mark {
 
 /* spans */
 span {
-  display: inline-block;
+  display: flex;
   text-align: center;
   justify-content: center;
 }
