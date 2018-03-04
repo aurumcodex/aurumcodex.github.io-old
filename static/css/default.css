@@ -165,11 +165,13 @@ table {
 }
 
 /* table data */
-table thead, table tbody, table tfoot, table td, table th {
+table thead, table tbody, table tfoot, table td {
   padding: 3px;
   color: #353d42;
   border: 3px solid #0e3b4f;
 }
+
+table th { font-family: "Nova Cut", sans-serif; }
 
 /* table rows with alternating colors */
 table tr:nth-child(odd) { background-color: #c4c4c4; }
@@ -199,7 +201,7 @@ fieldset { border: 2px double #085f77; }
 /* legend elemnts */
 legend {
   text-align: left;
-  font-family: "Kameron", sans-serif;
+  font-family: "Nova Cut", sans-serif;
 }
 
 /* button elements */
