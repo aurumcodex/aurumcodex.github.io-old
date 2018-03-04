@@ -165,13 +165,14 @@ table {
 
 /* table data */
 table thead, table tbody, table tfoot, table td, table th {
-  border: 2px solid #3f4a4f;
+  padding: 3px;
   color: #353d42;
+  border: 3px solid #0e3b4f;
 }
 
 /* table rows with alternating colors */
-table tr:nth-child(even) { background-color: #dbdbdb; }
 table tr:nth-child(odd) { background-color: #c4c4c4; }
+table tr:nth-child(even) { background-color: #dbdbdb; }
 
 /* table caprion */
 caption {
@@ -217,53 +218,55 @@ button:hover {
 }
 
 /* general inputs */
-input { font-family: "Anonymous Pro", monospace; }
+input {
+  font-family: "Anonymous Pro", monospace;
+  border: 3px groove 77777f;
+}
 
 input:valid { border-color: #6bad1f; }
 input:invalid { color: #f60000; }
-input:required { background-color: #6f0a56;}
+input:required { border-color: #16425b;}
 
 /* inputs via attributes (not all input types are used, however) */
 [type=text] {
+  padding: 3px;
   border: 3px groove #77777f;
   background-color: #dbdbdb;
-  padding: 3px;
 }
 
 [type=text]:focus { background-color: #eeffff; }
 
 [type=number] {
-  border: 3px groove #f60000;
-  background-color: #eeeeee;
   padding: 3px;
+  background-color: #eeeeee;
 }
 
 [type=number]:focus { background-color: #eeffff; }
 
 [type=button] {
+  padding: 3px;
   color: #cccfd1;
   background-color: #075470;
   border-radius: 4px;
   border: 2px solid #77777f;
   transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s; /* for Safari browsers */
-  padding: 3px;
 }
 
 [type=button]:hover {
+  padding: 4px;
   color: #e5e5e5;
   background-color: #4d6e7f;
-  padding: 4px;
 }
 
 [type=submit] {
+  padding: 3px;
   color: #cccfd1;
   background-color: #075470;
   border-radius: 4px;
   border: 2px solid #77777f;
   transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s; /* for Safari browsers */
-  padding: 3px;
 }
 
 [type=submit]:hover {
@@ -272,7 +275,11 @@ input:required { background-color: #6f0a56;}
   padding: 4px;
 }
 
-[type=color] { border-radius: 5px; border: 3px ridge #f60000; }
+[type=color] {
+  border-radius: 5px;
+  border: 3px ridge #f60000;
+  background-color: #2b2e33;
+}
 
 textarea {
   border: 3px groove #77777f;
