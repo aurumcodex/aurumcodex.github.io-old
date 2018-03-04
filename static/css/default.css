@@ -60,7 +60,7 @@ hr {
 
 /* unordered list items and ordered list items */
 ul { list-style-type: square;}
-ul li, ol li { font-family: "Kameron", serif; }
+ul li, ol li { font-family: "Forum", serif; }
 
 /* paragraphs */
 p { font-family: "Open Sans", helvetica, sans-serif; }
