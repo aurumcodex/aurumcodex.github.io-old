@@ -4,6 +4,7 @@
   color: #b3b6aa;
   background-color: #353d42;
   text-align: center;
+  hyphens: auto;
 }
 
 ::selection {
@@ -44,7 +45,6 @@ footer, header { font-family: "Anonymous Pro", monospace; }
 
 /* dl (description list) and dd (description details) */
 dl { font-family: "Forum", serif; }
-
 dd { font-size: 0.8em; }
 
 /* horizontal rule element */
@@ -58,8 +58,8 @@ hr {
 }
 
 /* unordered list items and ordered list items */
-ul li, ol li { font-family: "Kameron", serif; }
 ul { list-style-type: square;}
+ul li, ol li { font-family: "Kameron", serif; }
 
 /* paragraphs */
 p { font-family: "Open Sans", helvetica, sans-serif; }
@@ -141,7 +141,7 @@ span {
 
 /* ==== Media Content ==== */
 /* img elements */
-img { border: 3px groove #f60000; }
+img { border: 3px groove #29698e; }
 
 /* video elements */
 video { border: none; }
@@ -164,16 +164,10 @@ table {
 }
 
 /* table data */
-thead, tbody, tfoot, td, th {
-  border: 2px solid #2b2e33;
+table thead, table tbody, table tfoot, table td, table th {
+  border: 2px solid #3f4a4f;
   color: #353d42;
 }
-
-table thead {color: #353d42;}
-table tbody {color: #353d42;}
-table tfoot {color: #353d42;}
-table td {color: #353d42;}
-table th {color: #353d42;}
 
 /* table rows with alternating colors */
 table tr:nth-child(even) { background-color: #dbdbdb; }
@@ -210,7 +204,6 @@ legend {
 button {
   font-family: "Anonymous Pro", monospace;
   color: #cccfd1;
-  /* background-color: #353d42; */
   background-color: #373e4a;
   border-radius: 4px;
   border: 2px solid #77777f;
