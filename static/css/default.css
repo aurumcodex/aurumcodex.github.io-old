@@ -207,8 +207,8 @@ legend {
 
 /* button elements */
 button {
-  font: 1em "Anonymous Pro" #cccfd1;
-  /* color: #cccfd1; */
+  font: 1em "Anonymous Pro", monospace;
+  color: #cccfd1;
   background-color: #075470;
   border-radius: 4px;
   border: 2px solid #77777f;
