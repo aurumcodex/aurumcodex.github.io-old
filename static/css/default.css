@@ -123,7 +123,7 @@ kbd {
 q { font-family: "Forum", sans-serif; }
 
 /* time elements */
-time { font: 12px "Exo 2"; }
+time { font: 1em "Exo 2"; }
 
 /* marked elements */
 mark {
@@ -247,11 +247,13 @@ input:required { background-color: #6f0a56;}
   border: 2px solid #77777f;
   transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s; /* for Safari browsers */
+  padding: 3px;
 }
 
 [type=button]:hover {
   color: #e5e5e5;
   background-color: #4d6e7f;
+  padding: 4px;
 }
 
 [type=submit] {
@@ -261,17 +263,19 @@ input:required { background-color: #6f0a56;}
   border: 2px solid #77777f;
   transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s; /* for Safari browsers */
+  padding: 3px;
 }
 
 [type=submit]:hover {
   color: #e5e5e5;
   background-color: #4d6e7f;
+  padding: 4px;
 }
 
-[type=color] { border: 3px ridge #f60000; }
+[type=color] { border-radius: 5px; border: 3px ridge #f60000; }
 
 textarea {
-  border: 3px groove #f60000;
+  border: 3px groove #77777f;
   background-color: #eeeeee;
 }
 /* ==== End of Forms and Inputs ==== */
