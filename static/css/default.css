@@ -70,6 +70,7 @@ blockquote {
   font-family: "Open Sans", sans-serif;
   border-left: 3px solid #16425b;
   display: inline-block;
+  padding-left: 10px;
 }
 
 /* nav elements and maps */
