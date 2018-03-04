@@ -13,7 +13,7 @@
   background-color: #486b63;
 }
 
-/* for firefoc */
+/* for firefox */
 ::-moz-selection {
   color: #dbdbdb;
   background-color: #486b63;
@@ -295,3 +295,7 @@ textarea {
   background-color: #e5e5e5;
 }
 /* ==== End of Forms and Inputs ==== */
+
+/* ==== Custom set up for a "Terminal" element ==== */
+/* default set for the "terminal" */
+/* div.terminal {} */
