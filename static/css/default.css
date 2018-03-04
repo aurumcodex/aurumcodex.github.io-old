@@ -223,7 +223,7 @@ button:hover {
 
 /* general inputs */
 input {
-  font-family: "Anonymous Pro", monospace;
+  font: 1em "Anonymous Pro", monospace;
   border: 3px groove 77777f;
 }
 
