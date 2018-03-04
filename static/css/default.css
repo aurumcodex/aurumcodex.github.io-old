@@ -160,8 +160,9 @@ noscript { font: 12pt "Exo 2" }
 /* main table element */
 table {
   margin: auto;
-  font-family: "Open Sans", sans-serif;
   border-collapse: collapse;
+  table-layout: auto;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* table data */
@@ -178,7 +179,7 @@ table tr:nth-child(odd) { background-color: #c4c4c4; }
 table tr:nth-child(even) { background-color: #dbdbdb; }
 
 /* table caprion */
-caption {
+table caption {
   color: #e5e5e5;
   font-family: "Forum", serif;
 }
