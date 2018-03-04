@@ -207,7 +207,7 @@ legend {
 
 /* button elements */
 button {
-  font: 1em "Anonymous Pro", monospace #cccfd1;
+  font: 1em #cccfd1 "Anonymous Pro", monospace;
   /* color: #cccfd1; */
   background-color: #075470;
   border-radius: 4px;
@@ -238,14 +238,14 @@ input:required { border-color: #16425b;}
   background-color: #dbdbdb;
 }
 
-[type=text]:focus { background-color: #eeffff; }
+[type=text]:focus { color: #2b2e33; background-color: #2b2e33; }
 
 [type=number] {
   padding: 3px;
   background-color: #eeeeee;
 }
 
-[type=number]:focus { background-color: #eeffff; }
+[type=number]:focus { color: #2b2e33; background-color: #2b2e33; }
 
 [type=button] {
   padding: 3px;
@@ -287,12 +287,6 @@ input:required { border-color: #16425b;}
 
 textarea {
   border: 3px groove #77777f;
-  background-color: #eeeeee;
+  background-color: #e5e5e5;
 }
 /* ==== End of Forms and Inputs ==== */
-
-p.exo2 {font-family: "Exo 2";}
-p.kame {font-family: "Kameron";}
-p.form {font-family: "Forum";}
-p.open {font-family: "Open Sans";}
-p.nova {font-family: "Nova Cut";}
