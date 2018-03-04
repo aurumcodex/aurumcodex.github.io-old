@@ -40,7 +40,7 @@ aside {
 }
 
 /* footers and document header */
-footer, header { font-family: "Anonymous Pro", monospace;; }
+footer, header { font-family: "Anonymous Pro", monospace; }
 
 /* dl (description list) and dd (description details) */
 dl { font-family: "Forum", serif; }
@@ -71,11 +71,11 @@ blockquote {
 }
 
 /* nav elements and maps */
-nav, map { font-family: "Open Sans", sans-serif; }
+nav, map { font-family: "Nova Cut", sans-serif; }
 
 /* figures and figcaptions */
 figure { border: 2px solid #f60000; width: auto; }
-figcaption { font: 15pt "Evo 2"; }
+figcaption { font: 15pt "Forum"; }
 /* ==== End of Sectioned Content and Text Content Styling ==== */
 
 /* ==== Inline Text Semantic Stylings ==== */
@@ -127,8 +127,8 @@ time { font: 12px "Exo 2"; }
 
 /* marked elements */
 mark {
-  color: #370000;
-  background-color: #f60000;
+  color: #cccfd1;
+  background-color: #16425b;
 }
 
 /* spans */
@@ -149,7 +149,7 @@ video { border: none; }
 
 /* ==== Script Based Content ==== */
 /* canvas elements */
-canvas { border: 4px inset #f60000; }
+canvas { border: 2px hidden; }
 
 /* noscript elements */
 noscript { font: 12pt "Exo 2" }
@@ -169,14 +169,20 @@ thead, tbody, tfoot, td, th {
   color: #353d42;
 }
 
+table thead {color: #353d42;}
+table tbody {color: #353d42;}
+table tfoot {color: #353d42;}
+table td {color: #353d42;}
+table th {color: #353d42;}
+
 /* table rows with alternating colors */
-tr:nth-child(even) { background-color: #efd3d3; }
-tr:nth-child(odd) { background-color: #d1baba; }
+table tr:nth-child(even) { background-color: #dbdbdb; }
+table tr:nth-child(odd) { background-color: #c4c4c4; }
 
 /* table caprion */
 caption {
-  color: #efefef;
-  font-family: "Open Sans", serif;
+  color: #e5e5e5;
+  font-family: "Forum", serif;
 }
 /* ==== End of Table Content ==== */
 
@@ -192,7 +198,7 @@ form {
 label { font-family: "Exo 2", sans-serif; }
 
 /* fieldset elements */
-fieldset { border: 2px double #f60000; }
+fieldset { border: 2px double #16425b; }
 
 /* legend elemnts */
 legend {
@@ -204,7 +210,8 @@ legend {
 button {
   font-family: "Anonymous Pro", monospace;
   color: #cccfd1;
-  background-color: #353d42;
+  /* background-color: #353d42; */
+  background-color: #373e4a;
   border-radius: 4px;
   border: 2px solid #77777f;
   transition-duration: 0.5s;
@@ -225,8 +232,8 @@ input:required { background-color: #6f0a56;}
 
 /* inputs via attributes (not all input types are used, however) */
 [type=text] {
-  border: 3px groove #f60000;
-  background-color: #eeeeee;
+  border: 3px groove #77777f;
+  background-color: #dbdbdb;
   padding: 3px;
 }
 
