@@ -22,7 +22,10 @@
 /* ==== Sectioned Content and Text Content Styling ==== */
 /* section headers */
 /* h1, h2, h3, h4, h5, h6 { font-family: "Nova Cut"; } */
-h1, h2, h3, h4, h5, h6 { font-family: "Exo 2"; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Exo 2";
+  text-shadow: 0 0 4px #29698e;
+}
 
 /* divs */
 div {
@@ -36,9 +39,9 @@ div {
 
 /* asides */
 aside {
+  text-align: right;
   font-family: "Nova Cut", serif;
   /* font-size: 0.85em; */
-  text-align: right;
 }
 
 /* footers and document header */
