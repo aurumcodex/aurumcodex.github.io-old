@@ -8,14 +8,14 @@
 }
 
 ::selection {
-  color: #cccfd1;
-  background-color: #6bad1f;
+  color: #dbdbdb;
+  background-color: #486b63;
 }
 
 /* for firefoc */
 ::-moz-selection {
-  color: #cccfd1;
-  background-color: #6bad1f;
+  color: #dbdbdb;
+  background-color: #486b63;
 }
 
 /* ==== Sectioned Content and Text Content Styling ==== */
