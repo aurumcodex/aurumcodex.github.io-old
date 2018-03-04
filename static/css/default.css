@@ -5,7 +5,7 @@
   hyphens: auto;
   text-align: center;
   /* background-color: #353d42; */
-  background: linear-gradient(17deg, #353d42, #2b2e33, #353d42);
+  background: linear-gradient(25deg, #353d42, #2b2e33, #353d42);
 }
 
 ::selection {
