@@ -2,9 +2,10 @@
 /* For setting the background and *all* text in any linked HTML Document. */
 :root {
   color: #b3b6aa;
-  background-color: #353d42;
-  text-align: center;
   hyphens: auto;
+  text-align: center;
+  /* background-color: #353d42; */
+  background: linear-gradient(17deg, #353d42, #2b2e33, #353d42);
 }
 
 ::selection {
