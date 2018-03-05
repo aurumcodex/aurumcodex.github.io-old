@@ -140,6 +140,15 @@
   <hr>
   <br>
 
+  <input type="button" id="clickme" name="clickme" value="Click Me!" onclick="addElement()">
+  <script type="text/javascript">
+    var newP = document.createElement("p");
+    var content = document.createTextNode("<i> wow, you acually clicked me! </i>");
+    newP.appendChild(content);
+    var button = document.getElementById("clickme");
+    document.body.insertBefore(newP, button);
+  </script>
+
   <footer>
     <time>4:20pm</time> <br> footer here
   </footer>
