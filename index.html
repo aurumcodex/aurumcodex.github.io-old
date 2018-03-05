@@ -17,6 +17,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <script src="/js/libs/origami.js"></script>
 </head>
 
 <body>
@@ -144,6 +145,23 @@
   </footer>
 
   <canvas id="canvas" width="300" height="300">please use a browser that supports the canvas element.</canvas>
+  <script>
+    origami("#canvas")
+      .background("#3e81bf")
+      .arc('center', 'center', 50, {
+        background: '#22e88f',
+        borderSize: '5px',
+        borderColor: '#313334',
+        borderStyle: 'double'
+      })
+      .text("words here. origami's cool.",14,24, {
+        color: '#ff5400',
+        font: '2em Forum',
+        align: 'center',
+        border: '2px double #65852e'
+      })
+      .draw();
+  </script>
 
 </body>
 
