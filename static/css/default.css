@@ -303,7 +303,7 @@ div.terminal {
   border-top: 10px solid #c7c7c7;
   border: 2px solid #c7c7c7;
   background-color: #171513; /* background color */
-  font: 1em "Anonymous Pro" #c5c8c6;
+  font: 1em "VT323" #c5c8c6;
 }
 
 /* color definitions and settings */
