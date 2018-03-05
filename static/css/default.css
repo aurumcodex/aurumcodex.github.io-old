@@ -195,7 +195,8 @@ table caption {
 form {
   width: 50%;
   margin: auto;
-  justify-content: center;
+  text-align: center;
+  justify-content: flex-start;
 }
 
 /* for labels */
@@ -243,14 +244,14 @@ input:required { border-color: #16425b;}
   background-color: #dbdbdb;
 }
 
-[type=text]:focus { color: #2b2e33; background-color: #2b2e33; }
+[type=text]:focus { color: #2b2e33; background-color: #cccfd1; }
 
 [type=number] {
   padding: 3px;
   background-color: #eeeeee;
 }
 
-[type=number]:focus { color: #2b2e33; background-color: #2b2e33; }
+[type=number]:focus { color: #2b2e33; background-color: #cccfd1; }
 
 [type=button] {
   padding: 3px;
