@@ -202,7 +202,7 @@ form {
 label { font-family: "Forum", sans-serif; }
 
 /* fieldset elements */
-fieldset { border: 2px double #085f77; }
+fieldset { border: 2px double #085f77; width: 50%;}
 
 /* legend elemnts */
 legend {
