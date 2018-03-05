@@ -295,31 +295,3 @@ textarea {
   background-color: #e5e5e5;
 }
 /* ==== End of Forms and Inputs ==== */
-
-/* ==== Custom set up for a "Terminal" element ==== */
-/* default set for the "terminal" */
-div.terminal {
-  border-radius: 4px;
-  border-top: 10px solid #c7c7c7;
-  border: 2px solid #c7c7c7;
-  background-color: #171513; /* background color */
-  font: 1em "VT323" #c5c8c6;
-}
-
-/* color definitions and settings */
-div.terminal > mark.color0 { color: #282a28; }
-div.terminal > mark.color1 { color: #a54242; }
-div.terminal > mark.color2 { color: #75a52c; }
-div.terminal > mark.color3 { color: #fc7822; }
-div.terminal > mark.color4 { color: #5f819d; }
-div.terminal > mark.color5 { color: #8a509e; }
-div.terminal > mark.color6 { color: #659891; }
-div.terminal > mark.color7 { color: #78818a; }
-div.terminal > mark.color8 { color: #373b41; }
-div.terminal > mark.color9 { color: #cc6666; }
-div.terminal > mark.color10 { color: #aabd68; }
-div.terminal > mark.color11 { color: #f0c874; }
-div.terminal > mark.color12 { color: #6394be; }
-div.terminal > mark.color13 { color: #c174d8; }
-div.terminal > mark.color14 { color: #82c8bf; }
-div.terminal > mark.color15 { color: #c5c8c6; }
