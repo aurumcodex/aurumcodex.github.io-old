@@ -166,6 +166,7 @@ noscript { font: 1em "Exo 2" }
 table {
   margin: auto;
   border-collapse: collapse;
+  border: 3px solid #0e3b4f;
   table-layout: auto;
   font-family: "Open Sans", sans-serif;
 }
@@ -174,7 +175,7 @@ table {
 table thead, table tbody, table tfoot, table td {
   padding: 3px;
   color: #353d42;
-  border: 3px solid #0e3b4f;
+  /* border: 3px solid #0e3b4f; */
 }
 
 table th { font-family: "Nova Cut", sans-serif; }
