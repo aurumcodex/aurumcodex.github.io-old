@@ -83,7 +83,7 @@
 
   <br>
 
-  <table id="tableField" onmouseover="changeColor()" onmouseout="resetColor()">
+  <table id="tableField">
     <caption> this is a table caption </caption>
     <thead>
       <th class="data"> this is a table </th>
@@ -118,7 +118,7 @@
   </noscript>
 
   <form class="form" action="#" method="post">
-    <fieldset>
+    <fieldset id="formy" onmouseover="changeColor()" onmouseout="resetColor()">
       <legend> Title to a random form here </legend>
       <label for="text">words: &nbsp;</label>
       <input id="text" type="text" name="text" value="words" size="10">
@@ -174,7 +174,7 @@
       })
       .save()
       // .rotate(50)
-      .rotate('fast')
+      .rotate('slow')
 
       // .draw();
       .load(function(canvas) {
