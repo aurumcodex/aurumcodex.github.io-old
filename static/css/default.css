@@ -172,7 +172,7 @@ table {
 }
 
 /* table data */
-table thead, table tbody, table tfoot, table td {
+thead, tbody, tfoot, td, th {
   padding: 3px;
   color: #353d42;
   border: 3px solid #0e3b4f;
