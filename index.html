@@ -156,6 +156,7 @@
   <a href="http://www.theuselessweb.com">
     <canvas id="canvas" width="600" height="300">please use a browser that supports the canvas element.</canvas>
   </a>
+  <canvas id="canvas2" width="600" height="300"></canvas>
   <script>
   function thing() {
     origami("#canvas")
@@ -173,17 +174,28 @@
         border: '1px solid #0b0b0b'
       })
       .save()
-      // .rotate(50)
-      .rotate(15)
-      .clear()
-      .restore()
-      .save()
+      // .rotate("slow")
+      // .rotate(15)
+      // .clear()
+      // .restore()
+      // .save()
       // .draw();
       .load(function(canvas) {
         canvas.startRender(thing)
       })
     }
     thing();
+
+    origami("#canvas2")
+      .background("#385262")
+      .sprite(300, 150, {
+        src: '/static/img/coin-sprite.png',
+        frames: { total: 10 },
+        speed: 30,
+        loop: true
+      }).load(function(context) {
+        context.draw();
+      })
   </script>
 
 </body>
