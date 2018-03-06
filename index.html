@@ -18,6 +18,7 @@
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <script src="static/js/libs/origami.js"></script>
+  <script type="text/javascript" src="static/js/script.js"></script>
 </head>
 
 <body>
@@ -82,7 +83,7 @@
 
   <br>
 
-  <table id="tableField" onmouseover="mousyThing()" onmouseout="resetColor()">
+  <table id="tableField" onmouseover="changeColor()" onmouseout="resetColor()">
     <caption> this is a table caption </caption>
     <thead>
       <th> this is a table </th>
@@ -157,6 +158,7 @@
     <canvas id="canvas" width="600" height="300">please use a browser that supports the canvas element.</canvas>
   </a>
   <script>
+  function thing() {
     origami("#canvas")
       .background("#3f00a4")
       .arc('center', 'center', 75, {
@@ -171,8 +173,16 @@
         align: 'left',
         border: '1px solid #0b0b0b'
       })
+      .save()
       // .rotate(50)
-      .draw();
+      .rotate('fast')
+
+      // .draw();
+      .load(function(canvas) {
+        canvas.startRender(thing)
+      })
+    }
+    thing();
   </script>
 
 </body>
