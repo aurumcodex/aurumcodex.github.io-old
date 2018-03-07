@@ -205,9 +205,10 @@ label { font-family: "Forum", sans-serif; }
 
 /* fieldset elements */
 fieldset {
-  border: 2px double #085f77;
   width: 50%;
+  border: 2px double #085f77;
   justify-content: center;
+  text-align: center;
 }
 
 /* legend elemnts */
