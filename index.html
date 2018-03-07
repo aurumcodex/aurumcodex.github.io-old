@@ -124,7 +124,7 @@
       <input id="text" type="text" name="text" value="words" size="10">
       <button type="button" name="button">This is a big 'ol button</button>
       <input type="button" name="derp" value="also a button">
-      <textarea name="name" rows="8" cols="80">stuff goes here</textarea>
+      <textarea name="name" rows="8" cols="40">stuff goes here</textarea>
       <p> input types below: </p>
       <ul>
         <li> button: <input type="button" name="buttonIn" value="input button"> </li>
@@ -157,6 +157,7 @@
     <canvas id="canvas" width="600" height="300">please use a browser that supports the canvas element.</canvas>
   </a>
   <canvas id="canvas2" width="600" height="300"></canvas>
+  <canvas id="canvas3" width="600" height="300"></canvas>
   <script>
   function thing() {
     origami("#canvas")
@@ -195,7 +196,18 @@
         loop: true
       }).load(function(context) {
         context.draw();
-      })
+      });
+
+      origami("#canvas3")
+        .background("#366014")
+        .sprite('center', 'center', {
+          src: '/static/img/spritesheet.jpg',
+          frames: { total: 16 },
+          speed: 30,
+          loop: true
+        }).load(function(ctx) {
+          ctx.draw();
+        });
   </script>
 
 </body>
