@@ -304,10 +304,11 @@ textarea {
 /* ==== End of Forms and Inputs ==== */
 
 /* ==== Navigation Bars ==== */
-nav { font-family: "Nova Cut", sans-serif; }
+/* nav { font-family: "Nova Cut", sans-serif; } */
 
 nav ul li {
   color: #00bafe;
   text-align: left;
   list-style-type: none;
+  font-family: "Nova Cut", sans-serif;
 }
