@@ -310,10 +310,10 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: -webkit-sticky; /* for safari */
-  position: sticky;
+  /* position: -webkit-sticky;  (for safari)  */
+  position: fixed;
   top: 0;
-  background-color: #373e4a;
+  background-color: #2b2e33;
 }
 
 nav ul li {
