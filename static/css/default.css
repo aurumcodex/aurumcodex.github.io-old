@@ -306,4 +306,7 @@ textarea {
 /* ==== Navigation Bars ==== */
 nav { font-family: "Nova Cut", sans-serif; }
 
-nav ul li { color: #00bafe; }
+nav ul li {
+  color: #00bafe;
+  list-style-type: none; 
+}
