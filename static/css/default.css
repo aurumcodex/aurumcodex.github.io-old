@@ -313,12 +313,12 @@ nav ul {
   /* position: -webkit-sticky;  (for safari)  */
   position: fixed;
   bottom: 0;
-  background-color: #2b2e33;
+  background-color: #c4c4c4;
   overflow: hidden;
 }
 
 nav ul li {
-  color: #b3b6aa;
+  color: #2b2e33;
   display: inline;
   float: left;
   /* text-align: left; */
