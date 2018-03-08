@@ -306,11 +306,24 @@ textarea {
 /* ==== Navigation Bars ==== */
 /* nav { font-family: "Nova Cut", sans-serif; } */
 
-nav ul li {
-  color: #00bafe;
-  text-align: left;
+nav ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: -webkit-sticky; /* for safari */
+  position: sticky;
+  top: 0;
+}
+
+nav ul li {
+  color: #dbdbdb;
+  display: inline;
+  text-align: left;
+  /* list-style-type: none; */
   /* font-family: "Nova Cut", sans-serif; */
 }
 
-nav ul li:first-child { font-family: "Nova Cut", sans-serif; }
+nav ul li:first-child {
+  font-family: "Nova Cut", sans-serif;
+  text-shadow: 0 0 3px #6bad1f;
+}
