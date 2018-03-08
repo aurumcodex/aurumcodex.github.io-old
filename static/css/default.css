@@ -326,11 +326,16 @@ nav ul li {
   /* font-family: "Nova Cut", sans-serif; */
 }
 
+nav ul li a {
+  text-align: center;
+  padding: 15px 15px;
+}
+
 nav ul li:first-child {
   font-family: "Nova Cut", sans-serif;
   text-shadow: 0 0 3px #6bad1f;
 }
-/* 
+/*
 nav ul li:last-child {
   float: right;
   right: 0;
