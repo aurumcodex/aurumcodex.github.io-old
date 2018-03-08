@@ -76,8 +76,8 @@ blockquote {
   padding-left: 7px;
 }
 
-/* nav elements and maps */
-nav, map { font-family: "Nova Cut", sans-serif; }
+/* map elements */
+map { font-family: "Nova Cut", sans-serif; }
 
 /* figures and figcaptions */
 figure { border: 2px solid #f60000; width: auto; }
@@ -302,3 +302,8 @@ textarea {
   background-color: #e5e5e5;
 }
 /* ==== End of Forms and Inputs ==== */
+
+/* ==== Navigation Bars ==== */
+nav { font-family: "Nova Cut", sans-serif; }
+
+nav ul li { color: #00bafe; }
