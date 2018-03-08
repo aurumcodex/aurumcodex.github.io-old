@@ -308,7 +308,7 @@ textarea {
 
 nav ul {
   list-style-type: none;
-  margin: 0;
+  margin: 5px;
   padding: 5px;
   /* position: -webkit-sticky;  (for safari)  */
   position: fixed;
