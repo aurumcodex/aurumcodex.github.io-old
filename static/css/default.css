@@ -322,7 +322,9 @@ nav ul li {
   color: #2b2e33;
   display: inline;
   float: left;
-  padding: 15px 15px;
+  /* padding: 15px 15px; */
+  padding-left: 15px;
+  padding-right: 15px;
   /* text-align: left; */
   /* list-style-type: none; */
   /* font-family: "Nova Cut", sans-serif; */
