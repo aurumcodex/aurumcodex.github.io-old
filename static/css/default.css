@@ -313,12 +313,13 @@ nav ul {
   position: -webkit-sticky; /* for safari */
   position: sticky;
   top: 0;
+  background-color: #373e4a;
 }
 
 nav ul li {
-  color: #dbdbdb;
+  color: #b3b6aa;
   display: inline;
-  text-align: left;
+  /* text-align: left; */
   /* list-style-type: none; */
   /* font-family: "Nova Cut", sans-serif; */
 }
@@ -327,3 +328,5 @@ nav ul li:first-child {
   font-family: "Nova Cut", sans-serif;
   text-shadow: 0 0 3px #6bad1f;
 }
+
+nav ul li:last-child { float: right; }
