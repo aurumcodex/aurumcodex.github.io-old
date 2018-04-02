@@ -321,7 +321,7 @@ nav ul {
 nav ul li {
   color: #2b2e33;
   display: inline;
-  float: left;
+  /* float: left; */
   /* padding: 15px 15px; */
   padding-left: 15px;
   padding-right: 15px;

@@ -1,0 +1,29 @@
+[console colours for any terminal that has the ability of setting custom colors]
+
+//palette_size = 16
+
+background = #1d1f21 >> dark jungle green
+foreground = #c5c8c6 >> lavender gray
+
+//normal colours
+color0  = #383838 >> onyx               {black}
+color1  = #d73737 >> english vermillion {red}
+color2  = #8fc029 >> yellow-green       {green}
+color3  = #f18307 >> tangerine          {yellow}
+color4  = #0875b5 >> spanish blue       {blue}
+color5  = #9358fe >> navy purple        {magenta}
+color6  = #49c7ad >> eucalyptus         {cyan}
+color7  = #a3a9a9 >> dark medium grey   {white}
+
+//lighter colors
+color8  = #75715e >> nickle             {black}
+color9  = #ff5e5e >> sunset orange      {red}
+color10 = #a7e22e >> green lizard       {green}
+color11 = #ebce56 >> sandstorm          {yellow}
+color12 = #0bc5ff >> spiro disco ball   {blue}
+color13 = #ae81ff >> lavender (floral)  {magenta}
+color14 = #90dbb9 >> pearl aqua         {cyan}
+color15 = #d6d9d9 >> gainsboro          {white}
+
+
+roxterm saturation value = 0.62
