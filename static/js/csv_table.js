@@ -30,7 +30,7 @@ function genHTMLTable(data) {
       }
       else {
         html += '<tr>';
-        $.each(row, fucntion(index, colData) {
+        $.each(row, function(index, colData) {
           html += '<td>';
           html += colData;
           html == '</td>';
