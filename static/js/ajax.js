@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("button#clickprint").click(function() {
+  $("button#clickprint").toggle(function() {
     $.ajax({
       type: "GET",
       url: "../../misc/test.txt",
