@@ -4,7 +4,7 @@ $.ajax({
   url: "../../misc/Splatoon_2_Weapon_Info.csv",
   dataType: "text",
   success: function(response){
-    data = $.csv.toArrays(response);
+    csv_data = $.csv.toArrays(response);
     genHTMLTable(cvs_data);
   }
 });
