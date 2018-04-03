@@ -4,8 +4,12 @@ $(document).ready(function() {
       type: "GET",
       url: "../../misc/test.txt",
       success: function(result) {
-        $("#weapon_display").html(result).toggle();
+        $("#weapon_display").html(result);
       }
     });
+  });
+
+  $("#reclick").click(function() {
+    $("#weapon_display").toggle();
   });
 });
