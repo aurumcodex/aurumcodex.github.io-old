@@ -21,6 +21,7 @@
   <script type="text/javascript" src="static/js/script.js"></script>
   <script type="text/javascript" src="static/js/script2.js"></script>
   <script type="text/javascript" src="static/js/libs/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="static/js/paper-full.js"></script>
   <script type="text/javascript" src="static/js/ajax.js"></script>
 </head>
 
@@ -166,6 +167,7 @@
   </a>
   <canvas id="canvas2" width="600" height="300"></canvas>
   <canvas id="canvas3" width="600" height="300"></canvas>
+  <canvas id="paperCanvas" width="200" height="200"></canvas>
   <script>
   function thing() {
     origami("#canvas")
@@ -212,6 +214,13 @@
         .load(function(ctx) {
           ctx.draw();
         });
+  </script>
+  <script type="text/paperscript" canvas="paperCanvas">
+    var path = new Path();
+    path.srtokeColor = '#bbbebf';
+    var start = new Point(100, 100);
+    path.moveTo(start);
+    path.lineTo(start + [150, 50]);
   </script>
 
 </body>
