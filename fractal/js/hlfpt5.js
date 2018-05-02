@@ -181,7 +181,7 @@ function onResize() {
 // function for animating the scene
 function animate() {
 	requestAnimationFrame(animate);
-	// oribiter.update();
+	oribiter.update();
 	render_scene();
   // render.render(scene, camera);
 }
