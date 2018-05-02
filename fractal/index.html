@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>A Happy Little Fractal Purple Tree</title>
+  <meta lang="en" charset="utf-8">
+  <link rel="stylesheet" href="css/bob_ross.css">
+  <script type="text/javascript" src="js/three.js"></script>
+  <script type="text/javascript" src="js/controls/OrbitControls.js"></script>
+</head>
+
+<body>
+  <h1><u> A Happy Little Fractal Purple Tree </u></h1>
+  <!--  <p> a test of a three.js cube should be displayed below </p> -->
+  <!--  <code id="info">This is a cube with a wood bark texture applied to a cube in three.js</code> -->
+  <script src="js/hlfpt5.js"></script>
+  <p> Developers: Nathan Adams (Computer Science 2019) and Zach Thompson (Computer Science 2018) </p>
+  <p>
+    Overview: This image fits the theme in that in this world, trees are grown like normal, but after they are mature enough,
+    their trunks will dissolve away, leaving the rest of the tree to be floating for the rest of its lifespan.
+    <br>
+  </p>
+  <p> Technical Descriptions: </p>
+  <ul>
+    <li> Animation (Objects) - The wisps floating around are moving around due to the clock of the computer, and using some trigonometry functions to move them around. </li>
+    <li> Animation (Camera) - The camera was positioned at the coordinates (0, 20, 60) for a better view of the tree on load, and a controller was set to make the camera orbit the center of the display. </li>
+    <li> Fractal Tree - An algorithm was utilized in the creation of the tree displayed, although the root of the tree is not visible, making for a unique take on a tree. </li>
+    <li> Lighting Effects - There is ambient lighting used for the scene displayed, a direct light is also used, however the point lights floating around (the wisps) make this difficult. The wisps aren't there for show; they do illuminate the tree in a variance in colors. </li>
+    <li> Texture Maps - This is showcased in the ground panel, and in the tree. Every prism forming the tree has the same texture, making for a uniform look, with lighting effects enabled. The ground panel does not have lighting effects applied due to the panel being a simple shape. </li>
+  </ul>
+</body>
+
+</html>
