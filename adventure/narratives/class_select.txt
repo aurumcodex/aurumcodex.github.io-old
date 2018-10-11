@@ -1,0 +1,4 @@
+<span id="warrior"> this is a warrior </span>
+<span id="ranger"> this is a ranger </span>
+<span id="psion"> this is a psion </span>
+<span id="monk"> this is a monk </span>

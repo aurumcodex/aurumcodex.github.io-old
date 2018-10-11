@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> A Questing Trial </title>
+    <meta lang="en" charset="utf-8">
+    <meta name="author" content="Nathan Adams">
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/adventure.css">
+    <script type="text/javascript" src="../../script_libs/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../scripts/overarch.js"></script>
+    <script type="text/javascript" src="../scripts/scrpt_warrior.js"></script>
+</head>
+
+<body>
+    <div class="centering">
+        <h1> Path of the Warrior </h1>
+        <div class="image_container">
+            <img src="../media/images/warrior_by_wen_xaeroaaa.jpg" alt="human warrior">
+        </div>
+        <div class="text_container">
+            <span id="autoload"></span>
+        </div>
+        <div class="choice_box">
+            <p class="choice_stater"> make a decision below... </p>
+            <span class="button_menu"> </span>
+        </div>
+    </div>
+
+    <div class="navi">
+        <p>navi:</p>
+        <button onclick="location.href = './start.html';"> return home </button>
+        <button disabled onclick="location.href = './warrior.html';"> warrior path </button>
+        <button onclick="location.href = './ranger.html';"> ranger path </button>
+        <button onclick="location.href = './psion.html';"> psion path </button>
+        <!-- <button onclick="location.href = './monk.html';"> monk path </button> -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,298 @@
+/* Author: Nathan Adams */
+
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Della+Respira');
+
+/* ==== Overall Document ==== */
+:root {
+  color: #e8ffda;
+  hyphens: auto;
+  text-align: center;
+  background-color: #353d42;
+  background-image: url("../media/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  font-family: 'Della Respira';
+  height: 100vh;
+}
+
+body {
+  margin: 0px;
+  padding-top: 1em;
+  padding-bottom: 0em;
+  width: 100%;
+  height: 98.25vh;
+  /* height: 100%; */
+  background-color: #0000003f;
+}
+
+::selection {
+  color: #dbdbdb;
+  background-color: #486b63;
+}
+
+/* for firefox */
+::-moz-selection {
+  color: #dbdbdb;
+  background-color: #486b63;
+}
+
+hr { border: #90beb4b7 double 3px; }
+
+/* ==== Sections ==== */
+div {
+  margin: auto;
+  height: auto;
+  justify-content: center;
+}
+
+div.title_div {
+  text-align: left;
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+div.title_div h1 {
+  margin-left: 1em;
+  position: relative;
+  top: 45vh;
+  bottom: 60%;
+  width: 90%;
+  font-size: 5vh;
+}
+
+div.title_div button {
+  margin-left: 2vw;
+  position: relative;
+  top: 42vh;
+  width: 15em;
+  height: 2.5em;
+  font: 0.85vw 'Della Respira';
+}
+div.title_div button:hover {
+  margin-left: 2vw;
+  position: relative;
+  top: 42vh;
+  width: 16em;
+  height: 2.75em;
+  font: 0.85vw 'Della Respira';
+}
+
+div.title_div a {
+  position: relative;
+  top: 45vh;
+  left: 3vw;
+  color: #52d120;
+}
+
+div.title_div a:hover {
+  position: relative;
+  top: 45vh;
+  left: 3vw;
+  color: #3cbd7c;
+}
+
+div.title_div a:visited {
+  position: relative;
+  top: 45vh;
+  left: 3vw;
+  color: #3f742a98;
+  /* opacity: 0.1; */
+}
+
+span.class_desc { 
+  display: none;
+  width: 100%;
+}
+/* p#class { height: 3vh; } */
+div#class_desc { height: 10vh; }
+
+div.centering {
+  padding-top: 8vh;
+  justify-items: stretch;
+  top: 50%;
+  width: 80%;
+  margin: auto;
+}
+
+div.centering h1 { font-size: 4vh; }
+
+div.centering div {
+  justify-content: stretch;
+  display: table-cell;
+  float: left;
+  width: 50%;
+}
+
+div.centering div.text_container { 
+  position: relative;
+  top: 3ex;
+  left: 1em;
+  width: 47.5%;
+  height: 40vh;
+  background-color: #0000003f;
+}
+
+div.centering div.text_container span { 
+  margin: auto;
+  background-color: #0000003f;
+}
+
+div.completed {
+  padding-top: 4vh;
+  justify-items: stretch;
+  top: 50%;
+  width: 80%;
+  margin: auto;
+}
+
+div.completed h1 { font-size: 4vh; }
+
+span#autoload p {
+  font-size: 1.8vh;
+  text-align: justify;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+span#bossload p {
+  font-size: 1.8vh;
+  text-align: justify;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+span#autoload p::first-letter {
+  font-size: 2.7vh;
+  font-style: oblique;
+}
+span#bossload p::first-letter {
+  font-size: 2.7vh;
+  font-style: oblique;
+}
+
+div.centering div.choice_box { 
+  width: 30vw;
+  position: relative;
+  top: 5vh;
+  left: 5vw;
+  float: unset;
+  margin: auto;
+  padding-bottom: 2ex;
+  background-color: #0000003f;
+}
+
+div.centering p.choice_stater {
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+  font-size: 1.8vh;
+}
+
+div.class_select {
+  width: 75%;
+  padding: 5vh;
+  display: block;
+  justify-content: stretch;
+  transform: translateY(50%);
+}
+
+div.class_select button{
+  width: 7em;
+  margin: 0 1.5vw;
+  margin-top: 2ex;
+}
+
+img { 
+  height: 55vh;
+  width: auto;
+  padding: 5ex;
+  vertical-align: center;
+}
+
+p#concept_desc {
+  position: relative;
+  left: 20vw;
+  width: 50%;
+}
+
+a:link { color: #20d179 ; }
+a:visited { color: #1f4572; }
+
+/* ==== Buttons ==== */
+button {
+  font: 14px 'Anonymous Pro';
+  padding: 0.6ex;
+  border: #085f77 groove 2px;
+  border-style: outset; 
+  border-radius: 3px;
+  background-color: #242627;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  color: #c2c2c2;
+}
+
+button:hover {
+  padding: 0.5em;
+  color: #dbdbdb;
+  background-color: #44484b;
+}
+
+button:disabled {
+  /* cursor: not-allowed; */
+  opacity: 0.75;
+  padding: 0.6ex;
+  color: #7c7a7a;
+}
+
+span.button_menu button { width: 12em; }
+span.boss_button_menu button { width: 12em; }
+
+/* ==== Navi Bar ==== */ 
+body div.navi {
+  overflow: hidden;
+  background-color: #0000003f;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto
+}
+
+div.navi p {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+  opacity: 0.7;
+  font: 13px 'Anonymous Pro';
+}
+
+div.navi button {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 4px;
+  border-style: none;
+  opacity: 0.5;
+}
+
+div.navi button:hover {
+  padding: 0.6ex;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 4px;
+  border-style: none;
+  opacity: 0.85;
+}
+
+div.navi button:disabled {
+  padding: 0.6ex;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 4px;
+  border-style: none;
+  opacity: 0.5;
+}
